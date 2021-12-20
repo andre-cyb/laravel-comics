@@ -14,19 +14,22 @@
     @include('partials.the_header')
 
     <main>
-        {{-- @dump($comics) --}}
-        <div class="container">
-            <div class="row">
-                @foreach ($comics as $item)
-                    
-                <div class="col">
-
-                    <div class="cont_img">
-                    <img src="{{ $item['thumb'] }}" alt="" />
+        <div class="bg-dark text-white">
+            {{-- @dump($comics) --}}
+            <div class="container py-5 bg-dark">
+                <div class="row">
+                    @foreach ($comics as $item)
+                        
+                    <div class="col">
+    
+                        <div class="cont_img">
+                        <img src="{{ $item['thumb'] }}" alt="" />
+                        </div>
+                        <p>{{ $item['title'] }}</p>
                     </div>
-                    <p>{{ $item['title'] }}</p>
+                    @endforeach
                 </div>
-                @endforeach
+    
             </div>
 
         </div>
