@@ -214,9 +214,33 @@
 
 .details_container {
   max-width: 1140px;
+  margin: auto;
 }
 
 .details_container .first_description {
-  margin: 300px 0px;
+  margin: 200px 0px;
+}
+
+.details_container .first_description .description {
+  background-color: rosybrown;
+  padding: 30px 30px 30px 0px;
+}
+
+.details_container .first_description .description .priceANDavailability {
+  background-color: #55ba59;
+}
+
+.details_container .first_description .description .priceANDavailability .green_text {
+  color: #bafd9c;
+}
+
+.details_container .first_description .adv {
+  background-color: saddlebrown;
+  padding: 30px 0px;
+  text-align: right;
+}
+
+.details_container .first_description .adv img {
+  width: 90%;
 }
 
