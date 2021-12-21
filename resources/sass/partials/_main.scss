@@ -1,0 +1,50 @@
+
+
+.card_cont_black{
+    background-color: black;
+    padding-top: 30px;
+    .card_section{
+        /* max-width: $container-width; */
+        margin: auto;
+        padding: $section-padding;
+        .card_cont{
+            width: calc((100% / 12) * 2 - 30px);
+            display: inline-block;
+            padding: 15px;
+            text-decoration: none;
+            img {
+                width: 100%;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                object-position: top;
+            }
+            
+            p {
+                color: white;
+                margin: 0%;
+                padding-top: 10px;
+                padding-bottom: 15px;
+                text-align: left;
+                font-size: 16px;
+                
+            }
+        }
+        .cont_btn {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            .btn_load_more {
+                background-color: $brand-color;
+                border: none;
+                padding: 10px 40px 10px 40px;
+                span{
+                color: white;
+                text-decoration: none;
+                font-family: $font-family-PT;
+                letter-spacing: $letter-spacing;
+                
+                }
+            }
+        }
+    }
+}
