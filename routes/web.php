@@ -13,13 +13,21 @@ Route::get('/', function () {
 
 
 
-Route::get('/comic-details/{id?}', function ($id) {
-    $comics= config("comics");
-    $comic= $comics[$id];
+Route::get("/comic-details/{id?}", function($id) {
+    $data= config("comics");
+    
+    if (is_numeric($id) && $id >= 0 && $id < count($data)) {
+        $comic= $data[$id];
+        
 
-    return view('pages.item_details', [
-        "item"=>$comic
-    ]);
+        return view('pages.item_details', [
+            "item"=>$comic
+        ]);
+    }else {
+        abort('404');
+    }
+    
+
 })->name('pages.item_details');
 
 

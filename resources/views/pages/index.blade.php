@@ -11,7 +11,7 @@
         <div class="container card_section">
             <div class="d-flex flex-wrap justify-content-center">
                 @foreach ($comics as $item)
-                    <a class="card_cont" href="{{ route('pages.item_details') }}">
+                    <a class="card_cont" href="{{ route('pages.item_details', ["id"=>$loop->index]) }}">
                         <div class="cont_img">
                             <img src="{{ $item['thumb'] }}" alt="" />
                         </div>
@@ -25,6 +25,32 @@
         </div>
     </div>
 
+</div>
+<div class="blue_section">
+    <div class="my_cont_bluebar">
+        <ul>
+            <li>
+                <img src="{{ asset('/img/buy-comics-digital-comics.png') }}" alt="">
+                <a href="">DIGITAL COMICS</a>
+            </li>
+            <li>
+                <img src="{{ asset('/img/buy-comics-merchandise.png') }}" alt="">
+                <a href="">DC MERCHANDISE</a>
+            </li>
+            <li>
+                <img src="{{ asset('/img/buy-comics-shop-locator.png') }}" alt="">
+                <a href="">SUBSCRIPTION</a>
+            </li>
+            <li>
+                <img src="{{ asset('/img/buy-comics-subscription.png') }}" alt="">
+                <a href="">COMIC SHOP LOCATOR</a>
+            </li>
+            <li>
+                <img src="{{ asset('/img/buy-dc-power-visa.svg') }}" alt="">
+                <a href="">DC POWER VISA</a>
+            </li>
+        </ul>
+    </div>
 </div>
     
 @endsection

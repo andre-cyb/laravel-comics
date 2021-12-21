@@ -1,30 +1,5 @@
 <div class="my_footer">
-    <div class="blue_section">
-        <div class="my_cont_bluebar">
-            <ul>
-                <li>
-                    <img src="{{ asset('/img/buy-comics-digital-comics.png') }}" alt="">
-                    <a href="">DIGITAL COMICS</a>
-                </li>
-                <li>
-                    <img src="{{ asset('/img/buy-comics-merchandise.png') }}" alt="">
-                    <a href="">DC MERCHANDISE</a>
-                </li>
-                <li>
-                    <img src="{{ asset('/img/buy-comics-shop-locator.png') }}" alt="">
-                    <a href="">SUBSCRIPTION</a>
-                </li>
-                <li>
-                    <img src="{{ asset('/img/buy-comics-subscription.png') }}" alt="">
-                    <a href="">COMIC SHOP LOCATOR</a>
-                </li>
-                <li>
-                    <img src="{{ asset('/img/buy-dc-power-visa.svg') }}" alt="">
-                    <a href="">DC POWER VISA</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    
     <div class="menu_section">
         <div class="my_cont_footer">
             <div class="my_col_5 container_menu">
