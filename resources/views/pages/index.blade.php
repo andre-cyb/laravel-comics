@@ -2,6 +2,7 @@
 
 
 
+
 @section('content')
 
 <div class="bg-dark text-white">
