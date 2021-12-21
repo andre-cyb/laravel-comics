@@ -1,22 +1,154 @@
-.header_blue_bar{
-    background-color: #0282f9;
-    text-align: right;
-    color: white;
-}
-.header_navbar{
-    list-style: none;
-}
-.header_navbar li{
-    display: inline-block;
-    line-height: 85px;
-    padding: 10px;
+.header_blue_bar {
+  background-color: #0282f9;
+  text-align: right;
+  color: white;
 }
 
-
-
-
-
-.header_hero{
-    background-image: url('/img/jumbotron.jpg');
-    padding: 200px 0px;
+.header_navbar {
+  list-style: none;
+  margin: 0;
 }
+
+.header_navbar li {
+  display: inline-block;
+  line-height: 85px;
+  padding: 10px;
+}
+
+.header_hero {
+  background-image: url("/img/jumbotron.jpg");
+  padding: 200px 0px;
+}
+
+.blue_section {
+  padding: 10px 0px 10px 0px;
+  background-color: #0282f9;
+}
+
+.blue_section .my_cont_bluebar {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.blue_section .my_cont_bluebar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blue_section .my_cont_bluebar ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.blue_section .my_cont_bluebar ul li img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.blue_section .my_cont_bluebar ul li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.menu_section {
+  background-image: url(/img/footer-bg.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu_section .my_cont_footer {
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.menu_section .my_cont_footer .my_col_5 {
+  width: 41.6666666667%;
+}
+
+.menu_section .my_cont_footer .my_col_5.container_menu {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+}
+
+.menu_section .my_cont_footer .my_col_5 .my_col_5 {
+  width: 41.6666666667%;
+}
+
+.menu_section .my_cont_footer .my_col_5 .my_col_5 .list_style {
+  list-style: none;
+  padding: 0px;
+}
+
+.menu_section .my_cont_footer .my_col_5 .my_col_5 .list_style .menu_title_footer {
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.menu_section .my_cont_footer .my_col_5 .my_col_5 .list_style li {
+  padding-bottom: 4px;
+}
+
+.menu_section .my_cont_footer .my_col_5 .my_col_5 .list_style li a {
+  color: #959595;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.menu_section .my_cont_footer .dc_logo_bg {
+  background-image: url(/img/dc-logo-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu_section .my_cont_footer .dc_logo_bg.my_col_7 {
+  width: 58.3333333333%;
+}
+
+.social_section {
+  background-color: #303030;
+}
+
+.social_section .my_cont_footer_social {
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+  align-items: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.social_section .my_cont_footer_social .btn_footer {
+  padding: 10px;
+  color: white;
+  background-color: #303030;
+  border: 2px solid #0282f9;
+}
+
+.social_section .my_cont_footer_social .btn_footer span {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.social_section .my_cont_footer_social .social_cont {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.social_section .my_cont_footer_social .social_cont h3 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 10px 0px 10px;
+  color: #0282f9;
+}
+
+.social_section .my_cont_footer_social .social_cont img {
+  vertical-align: middle;
+  padding-left: 15px;
+}
+

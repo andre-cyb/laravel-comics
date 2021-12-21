@@ -1,0 +1,107 @@
+.blue_section {
+    padding: $section-padding;
+    background-color: $brand-color;
+    .my_cont_bluebar {
+        margin: auto;
+        max-width: $container-width;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                display: inline-block;
+                padding: 10px;
+                img{
+                    width: 40px;
+                    vertical-align: middle;
+                }
+                a{
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    text-decoration: none;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+.menu_section{
+    background-image: url(/img/footer-bg.jpg);  
+    object-fit: cover;
+    .my_cont_footer{
+        display: flex;
+        margin: auto;
+        max-width: $container-width;
+        .my_col_5 {
+            width: calc((100% / 12) * 5);
+            &.container_menu {
+                display: flex;
+                padding: 20px 0px 20px 0px;
+            }
+            .my_col_5 {
+                width: calc((100% / 12) * 5);
+                .list_style {
+                    list-style: none;
+                    padding: 0px;
+                    .menu_title_footer {
+                        font-size: 18px;
+                        padding-bottom: 10px;
+                        color: white;
+                        font-family: $font-family-PT;
+                    }
+                    li{
+                        padding-bottom: 4px;
+                        a{
+                            color: #959595;
+                            font-size: 11px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .dc_logo_bg {
+            background-image: url(/img/dc-logo-bg.png);  
+            background-position: center;
+            background-repeat: no-repeat;
+            &.my_col_7 {
+                width: calc((100% / 12) * 7);
+            }
+        }
+    }
+}
+.social_section {
+    background-color: #303030;
+    .my_cont_footer_social {
+        display: flex;
+        margin: auto;
+        max-width: $container-width;
+        align-items: center;
+        padding: 15px 0px 15px 0px;
+        .btn_footer {
+            padding: 10px;
+            color: white;
+            background-color: #303030;
+            border: 2px solid $brand-color;
+            span{
+                font-family: $font-family-PT;
+                letter-spacing: $letter-spacing;
+                font-size: $font-size;
+            }
+        }
+        .social_cont {
+            display: inline-block;
+            margin-left: auto;
+            h3 {
+                display: inline-block;
+                vertical-align: middle;
+                padding: 0px 10px 0px 10px;
+                color: $brand-color;
+            }
+            img {
+                vertical-align: middle;
+                padding-left: 15px;
+            }
+        }
+    }
+}

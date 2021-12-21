@@ -1,0 +1,20 @@
+.header_blue_bar{
+    background-color: #0282f9;
+    text-align: right;
+    color: white;
+    
+}
+.header_navbar{
+    list-style: none;
+    margin: 0;
+    li{
+        display: inline-block;
+        line-height: 85px;
+        padding: 10px;
+    }
+}
+
+.header_hero{
+    background-image: url('/img/jumbotron.jpg');
+    padding: 200px 0px;
+}

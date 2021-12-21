@@ -1,25 +1,9 @@
-@import "partials/main.scss";
+
+@import "/resources/sass/partials/_variables";
 
 
-.header_blue_bar{
-    background-color: #0282f9;
-    text-align: right;
-    color: white;
-}
-.header_navbar{
-    list-style: none;
-}
-.header_navbar li{
-    display: inline-block;
-    line-height: 85px;
-    padding: 10px;
-}
+@import "/resources/sass/partials/_header";
+@import "/resources/sass/partials/_main";
+@import "/resources/sass/partials/_footer";
 
 
-
-
-
-.header_hero{
-    background-image: url('/img/jumbotron.jpg');
-    padding: 200px 0px;
-}

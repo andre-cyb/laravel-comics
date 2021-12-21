@@ -31,6 +31,4 @@
 
 </div>
 
-<div class="header_hero">
-
-</div>
+<div class="header_hero"></div>
