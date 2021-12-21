@@ -11,12 +11,17 @@
         <img src="{{ asset('img/dc-logo.png') }}" width="70px" alt="">
         <nav>
             <ul class="header_navbar">
-                <li>prova</li>
-                <li>provacsdsa</li>
-                <li>prasova</li>
-                <li>prasova</li>
-                <li>prova</li>
-                <li>proava</li>
+                <li><a href="">CHARACTERS</a></li>
+                <li><a href="">COMICS</a></li>
+                <li><a href="">MOVIES</a></li>
+                <li><a href="">TV</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="">COLLECTIBLES</a></li>
+                <li><a href="">VIDEOS</a></li>
+                <li><a href="">FANS</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">SHOP</a></li>
+                
             </ul>
         </nav>
         <div>
