@@ -14,25 +14,8 @@
     @include('partials.the_header')
 
     <main>
-        <div class="bg-dark text-white">
-            {{-- @dump($comics) --}}
-            <div class="container py-5 bg-dark">
-                <div class="row">
-                    @foreach ($comics as $item)
-                        
-                    <div class="col">
-    
-                        <div class="cont_img">
-                        <img src="{{ $item['thumb'] }}" alt="" />
-                        </div>
-                        <p>{{ $item['title'] }}</p>
-                    </div>
-                    @endforeach
-                </div>
-    
-            </div>
-
-        </div>
+        @yield('content')
+        
     </main>
 
     @include('partials.the_footer')

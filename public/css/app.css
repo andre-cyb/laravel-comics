@@ -1,0 +1,13 @@
+.header_blue_bar{
+    background-color: #0282f9;
+    text-align: right;
+    color: white;
+}
+.header_navbar{
+    list-style: none;
+}
+.header_navbar li{
+    display: inline-block;
+    line-height: 85px;
+    padding: 10px;
+}

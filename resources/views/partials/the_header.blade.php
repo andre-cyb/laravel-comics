@@ -2,7 +2,7 @@
 <div class="header_blue_bar">
     <div class="container">
         <span>DC POWER VISA</span>
-        <span><a href="#">ADDITIONAL DC SITES</a></span>
+        <span class="ps-5"><a href="#">ADDITIONAL DC SITES</a></span>
     </div>
 </div>
 
