@@ -11,7 +11,7 @@
         <div class="container card_section">
             <div class="d-flex flex-wrap justify-content-center">
                 @foreach ($comics as $item)
-                    <a class="card_cont" href="#">
+                    <a class="card_cont" href="{{ route('pages.item_details') }}">
                         <div class="cont_img">
                             <img src="{{ $item['thumb'] }}" alt="" />
                         </div>
