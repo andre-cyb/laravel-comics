@@ -8,19 +8,21 @@
     margin: auto;
     
     .first_description{
-        margin: 200px 0px;
+        margin: 30px 0px;
         .description{
-            background-color: rosybrown;
             padding: 30px 30px 30px 0px;
             .priceANDavailability{
                 background-color: #55ba59;
+                span{
+                    line-height: 50px;
+                }
                 .green_text{
                     color: #bafd9c;
                 }
             }
+            
         }
         .adv{
-            background-color: saddlebrown;
             padding: 30px 0px;
             text-align: right;
             img{
@@ -28,7 +30,19 @@
             }
         }
     }
-    .second_description{
-
+}
+.second_description{
+    background-color: #f6f6f6;
+    .details_container{
+        .col-6{
+            padding: 20px;
+            .artist{
+                a{
+                    color: #00a9df;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
