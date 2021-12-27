@@ -2,6 +2,43 @@
 .blue_bar{
     padding: 30px 0px;
     background-color: $brand-color;
+    position: relative;
+    .details_container{
+        max-width: 1140px;
+        margin: auto;
+        .center_div {
+            bottom: 20px;
+            position: absolute;
+            .overlay{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border: 1px solid white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .comic_book{
+                    background-color: #00a9d9;
+                    width: fit-content;
+                    padding: 2px 10px ;
+                    color: white;
+                    font-size: 13px;
+                    text-decoration: none;
+                }
+                .view_gallery{
+                    text-align: center;
+                    background-color: #00a9d9;
+                    padding: 2px 10px ;
+                    color: white;
+                    font-size: 13px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
 }
 .details_container{
     max-width: 1140px;
@@ -36,12 +73,32 @@
     .details_container{
         .col-6{
             padding: 20px;
+            p{
+                font-weight: 500;
+                margin: 0;
+            }
             .artist{
                 a{
                     color: #00a9df;
                     font-weight: bold;
                     text-decoration: none;
                 }
+            }
+        }
+    }
+}
+.second_description{
+    background-color: #f6f6f6;
+    .details_container{
+        .col-3{
+            padding: 20px;
+            a{
+            color: #9f9faa;
+            text-decoration: none;
+            }
+            img{
+                width: 40px;
+                color: #dcdcdc;
             }
         }
     }

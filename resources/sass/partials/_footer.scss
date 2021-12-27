@@ -11,9 +11,6 @@
             &.container_menu {
                 display: flex;
                 padding: 20px 0px 20px 0px;
-            }
-            .my_col_5 {
-                width: calc((100% / 12) * 5);
                 .list_style {
                     list-style: none;
                     padding: 0px;
@@ -40,6 +37,13 @@
             background-repeat: no-repeat;
             &.my_col_7 {
                 width: calc((100% / 12) * 7);
+            }
+        }
+        .policy{
+            color: #959595;
+            font-size: 11px;
+            a{
+                text-decoration: none;
             }
         }
     }

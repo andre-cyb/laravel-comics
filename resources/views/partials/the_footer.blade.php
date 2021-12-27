@@ -2,8 +2,8 @@
     
     <div class="menu_section">
         <div class="my_cont_footer">
-            <div class="my_col_5 container_menu">
-                <div class="my_col_5">
+            <div class="my_col_5 row container_menu">
+                <div class="col-4">
                     <ul class="list_style">
                         <li class="menu_title_footer">DC COMICS</li>
                         <li><a href="#">Characters</a></li>
@@ -21,7 +21,7 @@
                     </ul>
                     
                 </div>
-                <div class="my_col_5">
+                <div class="col-4">
                     <ul class="list_style">
                         <li class="menu_title_footer">DC</li>
                         <li><a href="#">Term & Condition</a></li>
@@ -37,7 +37,7 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="my_col_5">
+                <div class="col-4">
                     <ul class="list_style">
                         <li class="menu_title_footer">SITES</li>
                         <li><a href="#">DC</a></li>
@@ -47,7 +47,11 @@
                         <li><a href="#">DC Power Visa</a></li>
                     </ul>
                 </div>
+                <p class="col-12 policy">
+                    All Site Content TM and C 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved. <br> <a href="#">Cookies Settings</a>
+                </p>
             </div>
+
         <div class="dc_logo_bg my_col_7"></div>
     </div>
     <div class="social_section">
