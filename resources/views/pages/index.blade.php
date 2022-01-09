@@ -5,10 +5,11 @@
 
 @section('content')
 
-<div class="bg-dark text-white">
+<div class="bg-dark text-white main_section">
     {{-- @dump($comics) --}}
+    <div class="current_series">CURRENT SERIES</div>
     <div class="card_cont_black">
-        <div class="container card_section">
+        <div class=" card_section">
             <div class="d-flex flex-wrap justify-content-center">
                 @foreach ($comics as $item)
                     <a class="card_cont" href="{{ route('pages.item_details', ["id"=>$loop->index]) }}">
